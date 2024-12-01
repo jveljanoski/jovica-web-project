@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Yavlana Brokers Suite" parallel="tests" thread-count="2" verbose="1">
+    <test name="Yavlana Brokers Testing">
+        <parameter name="browserName" value="CHROME" ></parameter>
+        <classes>
+            <class name="com.yavlena.app.tests.BrokersTest">
+                <methods>
+                    <include name="FindBroker"></include>
+                    <include name="ValidateBroker"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
