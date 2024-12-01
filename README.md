@@ -6,9 +6,9 @@ This project is a web test automation framework built using **Page Object Model 
 
 This project demonstrates how to use the **Page Object Model (POM)** to build a scalable test automation framework. 
 
-The `RegressionSuite.xml` file is designed to be easily integrated with CI tools, enabling seamless automation workflows.  
+The `Regression.xml` file is designed to be easily integrated with CI tools, enabling seamless automation workflows.  
 
-Additionally, one test is intentionally designed to fail, showcasing how **Allure Reporting** effectively represents failures with screenshots. Allure Reports provide clear and client-friendly results, making it easier to share insights and outcomes.
+Additionally, Allure Reports provide clear and client-friendly results, making it easier to share insights and outcomes.
 
 
 ## Prerequisites
@@ -32,7 +32,7 @@ Ensure the following are installed on your system:
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/jveljanoski/jovica-mobile-project.git](https://github.com/jveljanoski/jovica-web-project.git)
+   git clone [https://github.com/jveljanoski/jovica-web-project.git](https://github.com/jveljanoski/jovica-web-project.git)
    cd jovica-web-project
    ```
 
@@ -62,12 +62,3 @@ After running the tests, you can generate and open the Allure report to view the
 - I used prompts like: "Improve text for step 1" (as an example).
 - GPT definitely helps in writing manual tests faster.
 - All test cases can be automated (depending on the project requirements).
-
-
-
-and `src/test/java/com/companyname/app/utils/AppiumDriver.java` update the the values as per your environment
-
-- **NodeExePath**: Your system nodejs path 
-- **AppiumPath**: Your system appium path
-- **ANDROID_HOME**: Your system sdk path
-- **JAVA_HOME**: Your system java path
