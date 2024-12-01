@@ -1,5 +1,5 @@
 
-# Mobile Test Automation Project
+# Web Test Automation Project
 
 This project is a web test automation framework built using **Page Object Model (POM)**,  **Selenium**, **TestNG**, and integrated with **Allure** for reporting. 
 ## Project Summary  
